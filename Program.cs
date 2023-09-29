@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Exercicio17.Objects;
 using Microsoft.Data.SqlClient;
 
@@ -8,7 +8,7 @@ namespace Gravadora
     {
         private static string connectionString = @"Data Source=DESKTOP-S58D4QF;Initial Catalog=Recorder;Integrated Security=True;TrustServerCertificate=True;";
 
-        static void Main(string[] args)
+        static void Main()
         {
             //Remover os comentários para testar os métodos
 
